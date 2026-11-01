@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+*.key
+.env
+
+# Large raw downloads (none needed; all inputs are committed under data/raw/)
+data/raw/*.zip
+
+# OS
+.DS_Store
